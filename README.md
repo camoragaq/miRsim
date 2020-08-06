@@ -20,7 +20,7 @@ Test
 Read abundances
 ===============
 
-It is possible to simulate relative abundance of microRNAs. For this, the following strategy can be used.
+It is possible to simulate the relative abundance of microRNAs. For this, the following strategy can be used.
  
 ```
 awk 'BEGIN{a[0]=10;a[1]=100;a[2]=500;a[3]=1000;a[4]=5000;}{if($0~/>/){ print $1" "a[int(5 * rand())];}else{print $0}}'  db/human_high_conf_mature.fa > db/human_high_conf_mature.exp.fa 
