@@ -4,8 +4,7 @@ A tool to simulate sRNA-seq data.
 Description
 ============
 
-miRsim is a  tool for simulating sRNA-seq reads from  mature microRNA sequences (mirBase). it is a fork of [wgsim](https://github.com/lh3/wgsim) tool.
-It's able to simulate microRNA with SNPs and insertion/deletion (INDELs) polymorphisms, and simulate reads with uniform substitution sequencing errors.
+miRsim is a tool for simulating sRNA-seq reads from mature microRNA sequences (mirBase). it is a fork of the [wgsim](https://github.com/lh3/wgsim) tool. It is able to simulate microRNAs with SNPs and insertion/deletion (INDELs) polymorphisms, as well as to simulate reads with uniform substitution sequencing errors.
 
 
 Compilation
